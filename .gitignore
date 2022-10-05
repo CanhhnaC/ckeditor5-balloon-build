@@ -1,0 +1,14 @@
+
+*.log
+.DS_Store
+/typedoc-generated
+.nyc_output
+*.tsbuildinfo
+
+node_modules
+.pnpm-store/
+dist
+
+.yalc
+yalc.lock
+coverage

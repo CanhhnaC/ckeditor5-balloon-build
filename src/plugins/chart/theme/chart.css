@@ -1,0 +1,24 @@
+.ck-content {
+  & .chart {
+    display: table;
+    clear: both;
+    text-align: center;
+
+    margin: 0.9em auto;
+
+    min-width: 50px;
+
+    & .chart_react-wrapper {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+      min-width: 100%;
+    }
+  }
+}
+
+.ck.ck-editor__editable {
+  & .chart.ck-widget_selected {
+    z-index: 1;
+  }
+}
