@@ -1,0 +1,38 @@
+:root {
+  --ck-toolbar-spinner-size: 18px;
+}
+.ck-exportpdf_status-pending {
+  position: relative;
+}
+.ck.ck-exportpdf__spinner-container {
+  display: none;
+}
+.ck.ck-exportpdf__spinner {
+  border: 2px solid var(--ck-color-text);
+  border-radius: 50%;
+  border-top: 2px solid transparent;
+  left: 0;
+  margin: 0 auto;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+.ck-exportpdf_status-pending .ck.ck-exportpdf__spinner-container,
+.ck.ck-exportpdf__spinner {
+  height: var(--ck-toolbar-spinner-size);
+  position: absolute;
+  width: var(--ck-toolbar-spinner-size);
+}
+.ck-exportpdf_status-pending .ck.ck-exportpdf__spinner-container {
+  animation: rotate 1.5s linear infinite;
+  display: block;
+}
+.ck-exportpdf_status-pending .ck.ck-button__icon {
+  color: transparent;
+}
+@keyframes rotate {
+  to {
+    transform: rotate(1turn);
+  }
+}
