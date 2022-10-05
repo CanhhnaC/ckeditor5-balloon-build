@@ -1,5 +1,6 @@
 export * from './chart';
 export * from './mention';
+export { ExportPdf } from './export-pdf/export-pdf';
 
 export { Essentials } from '@ckeditor/ckeditor5-essentials';
 export { Paragraph } from '@ckeditor/ckeditor5-paragraph';
