@@ -2,7 +2,7 @@
   "name": "@canhhnac/ckeditor5-balloon-build",
   "author": "CanhhnaC <nguyentrancanh81@gmail.com>",
   "description": "A custom CKEditor 5 Balloon build.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "main": "./dist/index.js",
   "scripts": {
